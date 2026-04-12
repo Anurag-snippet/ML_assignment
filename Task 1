@@ -1,0 +1,29 @@
+#PROBLEM 1
+
+import tensorflow as tf
+import numpy as np
+import pandas as pd
+import matplotlib
+import random
+import os
+
+# seeds
+random.seed(42)
+np.random.seed(42)
+tf.random.set_seed(42)
+os.environ['PYTHONHASHSEED'] = '42'
+
+# versions
+print("TensorFlow:", tf.__version__)
+print("NumPy:", np.__version__)
+print("Pandas:", pd.__version__)
+print("Matplotlib:", matplotlib.__version__)
+
+# GPU check
+gpus = tf.config.list_physical_devices('GPU')
+
+if gpus:
+    print("\nGPU available:", gpus)
+else:
+    print("\nNo GPU detected")
+    # CPU slower → less parallelism; GPU → faster via parallel computation
