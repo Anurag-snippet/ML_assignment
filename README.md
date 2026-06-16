@@ -1,10 +1,10 @@
-# 🧠 Convolutional Neural Networks Lab Assignment
+# 🧠 CNN Architecture & Deep Learning Pipeline
 
 ## 📌 Project Overview
 
-This repository contains my complete implementation of a **CNN Laboratory Assignment**, covering the full deep learning pipeline — from data preprocessing to transfer learning.
+This repository contains my complete implementation of a **CNN Architecture**, covering the full deep learning pipeline — from data preprocessing to transfer learning.
 
-The assignment is divided into **5 major tasks**, each focusing on different aspects of Convolutional Neural Networks.
+This is divided into **5 major tasks**, each focusing on different aspects of Convolutional Neural Networks.
 
 ---
 
@@ -107,11 +107,5 @@ Required libraries:
 * Regularisation to prevent overfitting
 * Model interpretability using Grad-CAM
 * Practical use of transfer learning
-
----
-
-## ⭐ Acknowledgement
-
-This assignment was completed as part of the coursework to gain hands-on experience with **Convolutional Neural Networks** and real-world deep learning workflows.
 
 ---
